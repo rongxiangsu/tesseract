@@ -84,7 +84,6 @@ int main()
 	char* outText = recognizeText(fileName, "chidri+chi_sim");
 	outputTxtFile(outputFileName, outText);
 
-
 	DWORD end_time = GetTickCount();
 	cout << "Processing is completed.";
 	cout << "The run time is:" << (end_time - start_time) / 1000.0 << "s!" << endl;
